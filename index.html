@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes</title>
+    <link rel="stylesheet" href="notes.css">
+</head>
+<body>
+<nav>
+    <p id="notes-message">You don`t have any notes yet</p>
+    <button id="add">Add Note</button>
+    <button id="list" class="hidden">Show List Of Notes</button>
+</nav>
+<div id="note">
+    <div id="creation-block" class="hidden">
+        <textarea name="" id="content" placeholder="Please start typing..." cols="30" rows="10"></textarea>
+        <div class="actions">
+            <button id="exit">Exit Without Saving</button>
+            <div class="color-btn">
+                <button id="note-color-btn">Choose Note Color</button>
+                <input type="color" class="color" id="color" name=""
+                       value="#e66465">
+            </div>
+            <button id="submit">Submit</button>
+            <button id="edit" class="hidden">Edit</button>
+        </div>
+    </div>
+    <div id="note-list">
+    </div>
+</div>
+<script src="notes.js"></script>
+</body>
+</html>
