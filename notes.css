@@ -39,7 +39,7 @@
 .note {
     width: 300px;
     display: inline-block;
-    margin: 5px;
+    margin: 6px;
 }
 
 :hover.note {
